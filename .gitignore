@@ -1,46 +1,42 @@
-*.gem
-*.sublime-project
-*.sublime-workspace
-.bundle
-.DS_Store
-.jekyll-metadata
-.sass-cache
-_asset_bundler_cache
-_site
-codekit-config.json
-example/_site
-Gemfile.lock
-node_modules
-npm-debug.log*
+# See http://help.github.com/ignore-files/ for more about ignoring files.
 
-*.class
-*.log
+# compiled output
+/dist
+/tmp
+/out-tsc
 
-# sbt specific
-dist/*
-target/
-lib_managed/
-src_managed/
-project/boot/
-project/plugins/project/
+# dependencies
+/node_modules
 
-# Scala-IDE specific
-.scala_dependencies
-
-#Intellij
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
 .settings/
-.idea/
-*.iml
-*.iws
+*.sublime-workspace
 
-#Ubuntu
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
 .DS_Store
-
-#SVN
-.svn/
-.metadata/
-
-# nodejs
-node_modules/
-
-
+Thumbs.db
