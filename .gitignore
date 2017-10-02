@@ -1,0 +1,46 @@
+*.gem
+*.sublime-project
+*.sublime-workspace
+.bundle
+.DS_Store
+.jekyll-metadata
+.sass-cache
+_asset_bundler_cache
+_site
+codekit-config.json
+example/_site
+Gemfile.lock
+node_modules
+npm-debug.log*
+
+*.class
+*.log
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+
+#Intellij
+.settings/
+.idea/
+*.iml
+*.iws
+
+#Ubuntu
+.DS_Store
+
+#SVN
+.svn/
+.metadata/
+
+# nodejs
+node_modules/
+
+
